@@ -1,4 +1,4 @@
-package com.DataType;
+package com.datatype;
 
 //data type that cant be break further is call primitive data type
 

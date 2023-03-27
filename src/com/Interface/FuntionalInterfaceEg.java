@@ -9,7 +9,7 @@ public interface FuntionalInterfaceEg{
 
 @FunctionalInterface
 interface B extends FuntionalInterfaceEg{
-//    void m2();                    //cant have more than 1 abstrct method in FuntionalInterface
+//    void m2();                    //cant have more than 1 abstrct method in child of FuntionalInterface
     void m1();
 }
 

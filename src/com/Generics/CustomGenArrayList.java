@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 // https://docs.oracle.com/javase/tutorial/java/generics/restrictions.html#createObjects
 
-public class CustomGenArrayList<T> {            //T can be any type. To restrict T we can extend the required class like NUmber, then in place of T we can only pass Number data type or child class of T like Integer,FLoat. Instead of T we can write ?
+public class CustomGenArrayList<T> {            //T can be any type. To restrict T we can extend the required class like NUmber, then in place of T we can only pass Number data type or child class of T (like Integer,FLoat). Instead of T we can write ?
 
     private Object[] data;
     private static int DEFAULT_SIZE = 10;

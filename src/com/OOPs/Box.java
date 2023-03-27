@@ -11,7 +11,7 @@ public class Box {
         this.l=-1;
         this.b=-1;
         this.h=-1;
-        //super();      //if we only use super then it will call Object class and give default value of that data type but if we dont use super still they give the default value
+//        super();      //if we only use super then it will call Object class and give default value of that data type but if we dont use super still they give the default value
     }
 
     Box(int oneNmber){
@@ -26,7 +26,7 @@ public class Box {
         this.h=old.h;
     }
 
-    public Box(int l, int b, int h) {
+    public Box(int l, int b, int h) {   //Parametrize constructor - It is used to provide different values to distinct objects.
         this.l = l;
         this.b = b;
         this.h = h;

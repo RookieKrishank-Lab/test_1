@@ -7,6 +7,9 @@ public class TypeCasting {
         //type casting
         int numb = (int)(231.31f);
         System.out.println(numb);
+
+        int number = 'a';
+        System.out.println(number);
 /*
         //automatic type casting
         int a = 257;

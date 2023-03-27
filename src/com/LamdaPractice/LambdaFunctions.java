@@ -29,7 +29,8 @@ public class LambdaFunctions {
 //        arr.forEach(fun);
 //
         //sum, prod, sub is the obj of com.LamdaPractice.Operation
-        Operation sum = Integer::sum;
+
+        Operation sum = (a,b) -> a+b;   // Integer::sum;
         Operation prod = (a, b) -> a * b;
         Operation sub = (a, b) -> a - b;
 //
@@ -44,6 +45,9 @@ public class LambdaFunctions {
 //        return op.operation(a, b);
 
         System.out.println(sum.operation(2,3));
+    }
+    int abc(int a, int b){
+        return a+b;
     }
 }
 

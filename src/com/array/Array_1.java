@@ -1,3 +1,7 @@
+package com.array;
+
+import java.util.Arrays;
+
 public class Array_1 {
     public static void main(String[] args) {
     int[] x;
@@ -17,8 +21,8 @@ public class Array_1 {
 
     //int[2] a ;                    // will give error cause at the time of "declaration" we cant assign size but at the time of "creation" we need to assign size
     int[] a = new int[2];
-    int[][] b = new int[2][];       //1st array size is 2 and remaining array b[0][0] and b[1][0] is different
-    int[][] c= new int[2][1];       //1st array 2 size and 2nd array 1 size
+    int[][] b = new int[2][];       //1st array size is 2 and remaining 2nd lvl array b[0][0] and b[1][0] is different
+    int[][] c= new int[2][1];       //1st array size is 2 and 2nd array size is 1
 
     /*
     int[] X= new int[3];
@@ -52,6 +56,8 @@ public class Array_1 {
         //for assigning value to the array pos
         x_1[0][0]= 23;
         System.out.println(x_1[0][0]);
+        //System.out.println(x_1[0][2]);
 
+//        System.out.println(Arrays.toString(abc_1));             //another way of printing an array
     }
 }
