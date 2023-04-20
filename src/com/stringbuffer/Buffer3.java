@@ -3,11 +3,11 @@ package com.stringbuffer;
 
 public class Buffer3{
 
-    public static  void m1(String s){
+    public static void m1(String s){
         System.out.println("string");
     }
 
-    public static  void m1(Object o){
+    public static void m1(Object o){
         System.out.println("object");
     }
     public static void main(String []args){
@@ -15,7 +15,7 @@ public class Buffer3{
         sb.delete(1,3);
         System.out.println(sb);
 
-        m1(null);
+        m1(sb);
     }
 
 
