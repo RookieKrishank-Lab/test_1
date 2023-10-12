@@ -5,15 +5,16 @@ import java.util.Arrays;
 public class Array_1 {
     public static void main(String[] args) {
     int[] x;
-    x = new int[10];
-    x[9]=9;
+    x = new int[]{1,2,3};
+//    x = new int[10];
+//    x[9]=9;
 
     for(int x1 :x){             //instead of int we can write Integer
         System.out.print(x1);
     }
     System.out.println();
 
-    int []y;
+   /* int []y;
     int z[];
 
     int abc_1[] = {2,3};
@@ -24,7 +25,7 @@ public class Array_1 {
     int[][] b = new int[2][];       //1st array size is 2 and remaining 2nd lvl array b[0][0] and b[1][0] is different
     int[][] c= new int[2][1];       //1st array size is 2 and 2nd array size is 1
 
-    /*
+    *//*
     int[] X= new int[3];
 
         System.out.println(X);
@@ -45,7 +46,7 @@ public class Array_1 {
         x_1[1]=2;
         //x_1[2]=3;
         System.out.println(x_1[0]+" "+x_1[0]+" ");
-     */
+     *//*
      // Not the right way of assigning var value in 2D array
         int[][] x_1 = new int[2][];
         //x_1[0] = 2;
@@ -58,6 +59,7 @@ public class Array_1 {
         System.out.println(x_1[0][0]);
         //System.out.println(x_1[0][2]);
 
-//        System.out.println(Arrays.toString(abc_1));             //another way of printing an array
+//        System.out.println(Arrays.toString(abc_1));             //another way of printing an array*/
+
     }
 }

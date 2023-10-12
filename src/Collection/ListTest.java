@@ -1,5 +1,6 @@
 package Collection;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class ListTest {
@@ -11,10 +12,21 @@ public class ListTest {
 //            // Creating an object of List interface
 //            // implemented by the ArrayList class
 //            List<Integer> l1 = new ArrayList<Integer>();
+
+//            //Different way of defining a list
+//                //Method-1
+//                List<Integer> l1 = new ArrayList<>();
+//                l1.add(23);
+//                l1.add(645);
 //
+//                //Method-2
+//                List<Integer> l2 = List.of(2,5,23,54,72,16);                           //.of method was introduced in java 9
+//
+//                //Method-3
+//                List<Integer> l3 = Arrays.asList(324,52,21);
+
 //            // Adding elements to object of List interface
 //            // Custom inputs
-//
 //            l1.add(0, 1);
 //            l1.add(1, 2);
 //

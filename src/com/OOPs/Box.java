@@ -2,11 +2,12 @@ package com.OOPs;
 
 public class Box {
 
+    //datahiding. l cant be directly access from outside class, to access we have to use the help of getter and setter
     private int l;
     int b;
     int h;
 
-    //Default constructor
+    //No arg constructor as we are defining by our own OR we can say Default constructor
     Box(){
         this.l=-1;
         this.b=-1;
@@ -60,5 +61,14 @@ class BoxWeight extends Box{
 
     static void greeting(){
         System.out.println("Hey im in boxweight class");
+    }
+
+    @Override
+    public String toString() {
+        return "BoxWeight{" +
+                "weight=" + weight +
+                ", b=" + b +
+                ", h=" + h +
+                '}';
     }
 }

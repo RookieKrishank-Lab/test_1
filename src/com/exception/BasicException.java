@@ -9,10 +9,10 @@ public class BasicException {
     try{                            //inside try write that part which might give an exception
         divide(a,b);
     }
-    catch(ArithmeticException e){                          //inside catch write what will happend if we get an exception in try block
+    catch(ArithmeticException e){                          //inside catch write what will happen if we get an exception in try block
         System.out.println(e.getMessage());
         }
-    catch(Exception e){                          // more strict exception should be wrote first like ArithmeticException then Exception
+    catch(Exception e){                          // more strict exception should be written first like ArithmeticException then Exception
         System.out.println("Normal Exception");
     }
     finally {
@@ -26,5 +26,4 @@ public class BasicException {
         }
         return a/b;
     }
-
 }

@@ -26,10 +26,13 @@ public class BoxMain {
         Box b_4 = new BoxWeight(2,3,4);
         System.out.println(b_4.b);
 
-        b_4.getL();         //datahiding
+
+        System.out.println(b_4.getL());         //datahiding
 
         Box b_5 = new BoxWeight();
         b_5.greeting();             // static method cant be override but can be inherited
 
+        System.out.println("----ToString---------");
+        System.out.println(b_5);                //to print all the value
     }
 }

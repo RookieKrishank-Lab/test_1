@@ -30,7 +30,7 @@ public class LambdaFunctions {
 //
         //sum, prod, sub is the obj of com.LamdaPractice.Operation
 
-        Operation sum = (a,b) -> a+b;   // Integer::sum;
+        Operation sum = Integer::sum;   // Integer::sum;
         Operation prod = (a, b) -> a * b;
         Operation sub = (a, b) -> a - b;
 //
