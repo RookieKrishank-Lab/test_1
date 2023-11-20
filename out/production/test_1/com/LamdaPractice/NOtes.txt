@@ -1,1 +1,0 @@
-If only one document then no need of curly braces ie {}
