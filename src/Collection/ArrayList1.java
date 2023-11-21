@@ -44,14 +44,22 @@ public class ArrayList1 {
         //to check if element is there or not
         System.out.println(l1.contains(100000));
 
-        //Iterator
+        //Ways to print list element
+
+        //1 Iterator
         Iterator it = l1.iterator();
         while(it.hasNext()){
             System.out.println("The element value is "+it.next());
         }
 
+        //2 forEach
          for(String Elements : l1){
             System.out.println("The element value is "+Elements);
+        }
+
+        //3 for loop
+        for(int i= 0; i<l1.size; i++){
+            System.out.println("The element value is+ l1.get(i));
         }
  */
 
