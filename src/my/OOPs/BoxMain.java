@@ -16,7 +16,7 @@ public class BoxMain {
          */
 
         /*
-        we can acess the weigth from BoxWeight but it has to be initialize but Box contructor dont know wht is weight so it give a error
+        we can access the weight from BoxWeight but it has to be initialize but Box constructor dont know wht is weight so it give a error
         BoxWeight b_2= new Box(2,3,4);
         System.out.println(box_2);
          */

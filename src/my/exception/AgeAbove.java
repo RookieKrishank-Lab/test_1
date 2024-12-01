@@ -6,9 +6,11 @@ public class AgeAbove {
 
     //error and throws,try & catch is checked(compile time) others all in uncheck exception(Runtime).
     //Custom exception extends Runtime, but they should be handled and thrown by the user as compiler is not aware of it.
-    public void isAge(int age) throws BelowAgeException {
+    //Here our custom method is not extending checked exception so we dont need to write try-catch or throws with it.
+    public void isAge(int age){ //throws BelowAgeException {
         if (age<15) {
             throw new BelowAgeException("Age is less than 15");
+            //System.out.println("");           //unreachable statement
         } else {
             System.out.println("Age is: " + age);
         }
@@ -22,7 +24,8 @@ public class AgeAbove {
         if (a!=null){
             System.out.println("Hii");
         }
-        try{
+        a.isAge(age);
+        /*try{
             a.isAge(age);
         }
         catch (BelowAgeException ex){
@@ -33,7 +36,7 @@ public class AgeAbove {
         catch (Exception ex){
             System.out.println(2);
             ex.printStackTrace();
-        }
+        }*/
 
     }
 }
