@@ -30,7 +30,7 @@ public class EachWordReverse {
         String ans = "";
         for (String i : arrayList) {
             StringBuilder builder = new StringBuilder(i);
-            ans = ans +" " + builder.reverse().toString();
+            ans = ans + " " + builder.reverse().toString();
         }
        System.out.println(ans.trim());
     }

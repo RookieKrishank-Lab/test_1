@@ -44,13 +44,13 @@ public class FirstNegativeNumberInWindow {
 
         while(j < arr.length) {
 
-            if(arr[j] < 0)
+            if(arr[j] < 0) {
                 queue.add(arr[j]);
-
-            if((j - i + 1) < k) {
-                j++;
             }
-            else if((j - i + 1) == k) {
+            /*if((j - i + 1) < k) {
+                j++;
+            }*/
+            if((j - i + 1) == k) {
                 if(queue.isEmpty()) {
                     list.add(0);
                 }
@@ -61,9 +61,9 @@ public class FirstNegativeNumberInWindow {
                         queue.poll();
                 }
                 i++;
-                j++;
+//                j++;
             }
-
+            j++;
         }
 
         System.out.println(list);

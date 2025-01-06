@@ -4,10 +4,10 @@ package my.exception;
 
 public class BasicException {
     public static void main(String[] args) {
-        int a = 5;
-        int b = 0;
+        int a = 12;
+        int b = 6;
     try{                            //inside try write that part which might give an exception
-        divide(a,b);
+        System.out.println(divide(a,b));
     }
     catch(ArithmeticException e){                          //inside catch write what will happen if we get an exception in try block
         System.out.println(e.getMessage());
@@ -20,7 +20,7 @@ public class BasicException {
     }
     }
 
-    static int divide(int a, int b) throws ArithmeticException{             //throws to declare an exception
+    static float divide(int a, int b) throws ArithmeticException{             //throws to declare an exception
         if(b==0){
             throw new ArithmeticException("Do not divide by 0");        //throw keyword to create manual exception
         }

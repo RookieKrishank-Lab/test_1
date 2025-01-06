@@ -1,4 +1,4 @@
-package my.interview.prep;
+package my.interview.prep.string;
 
 import java.util.Scanner;
 
