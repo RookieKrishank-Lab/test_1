@@ -10,7 +10,7 @@ public class StringReverse_1 {
         String originalString = sc.nextLine();
         //System.out.println(originalString);
         char characters;
-        String reverseString = "";                                      //If we dont initialize an empty string we will get error while concatine with the characters
+        String reverseString = "";                                      //If we dont initialize an empty string we will get error while concatenate with the characters
         for(int i=0; i<originalString.length(); i++){
             characters = originalString.charAt(i);
             reverseString = characters + reverseString;

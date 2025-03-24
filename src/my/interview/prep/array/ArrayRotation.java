@@ -1,8 +1,4 @@
-package my.interview.prep;
-
-import java.lang.reflect.Array;
-import java.util.Arrays;
-import java.util.stream.Collectors;
+package my.interview.prep.array;
 
 public class ArrayRotation {
 //    [3,1,0,5,0,0,4,2]

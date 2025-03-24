@@ -1,7 +1,6 @@
-package my.interview.prep;
+package my.interview.prep.string;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
 
 //Reverse each word of the string
@@ -10,7 +9,7 @@ public class EachWordReverse {
     public static void main(String[] args) {
 
         String str = "am bnb";
-/*
+
         //converting string to char array
         char[] newStr = str.toCharArray();
 
@@ -24,13 +23,11 @@ public class EachWordReverse {
                 str2="";
             }
         }
-        System.out.println("---"+arrayList);*/
-
-        String[] words = str.split(" ");
+        System.out.println("---"+arrayList);
 
         //reverse each element of an array
         String ans = "";
-        for (String i : words) {
+        for (String i : arrayList) {
             StringBuilder builder = new StringBuilder(i);
             ans = ans + " " + builder.reverse().toString();
         }

@@ -11,7 +11,7 @@ public class EachCharOccurrence {
         String str = "hello world";
 
         //string to stream of char
-        IntStream stream = str.chars();
+        IntStream stream = str.chars();                     //we cant use char array cause Arrays.stream(char[]) does not exist for primitive char because the Stream API has no direct support for char primitives. More in the word doc (15/01/25)
         //IntStream return the ASCII value of each char
 
         Map<Character, Long> characterLongMap = stream.mapToObj(c -> (char) c)     //convert ascii value to char. mapToObject is use to change the type
